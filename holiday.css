@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    background:white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:#2C6F4B;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.logo {
+    width: 80px;
+}
+
+.come {
+    background:#2C6F4B;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.came{
+    background:#ffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn a {
+    color:black;
+    text-decoration: none;
+}
+
+/* Sections */
+.family{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    
+}
+.man{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    
+}
+
+
+.width{
+    width: 500px;
+}
+.adebowale{
+    padding: 3rem;
+    text-align: center;
+    background-color:#2C6F4B;
+    
+}
+.dad{
+    padding: 2rem;
+    text-align: center;
+    background-color: #2C6F4B;
+
+}
+.one{
+    padding-bottom:3rem;
+    color: #fff;
+
+}
+.two{
+    padding-bottom: 3rem;
+
+}
+.no{
+    padding-top:5rem;
+    color: #2C6F4B;
+}
+.non{
+    padding-top:5rem;
+    color:#ffffff;
+    padding-top: 8rem;
+}
+
+.baba{
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    gap: 10rem;
+}
+.papa{
+    color: #2c6f4b;
+}
+
+
+.contact{
+    display: flex;
+    justify-content:center;
+    gap:10rem;
+
+}
+.location{
+    padding-top: 3rem;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
